@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+body {
+    background-color: #3a3636;
+    color: wheat;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    margin: auto;
+    position: sticky;
+    top: 0;
+
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+ul a {
+    text-decoration: none;
+    color: mediumaquamarine;
+    background-color: #3a3636;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+header, main {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+h2 {
+    display: flex;
+    border-bottom: 1px solid wheat;
+    flex-shrink: 1;
+}
+
+
+
+.image-circle {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.project-card {
+    width: 900px;
+    height: 900px;
+    background-color: #4b4747 ;
+    margin: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+
+.project-card h3 {
+    margin: auto;
+}
+
+.project-card img {
+    height: 800px;
+    width: auto;
+
+}
